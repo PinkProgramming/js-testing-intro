@@ -1,18 +1,21 @@
 {
   "name": "js-testing-intro",
   "version": "1.0.0",
+  "author": {
+    "name": "Rikku Bölske",
+    "email": "rikku@pinkprogramming.se",
+    "url": "https://www.linkedin.com/in/rikku-b"
+  },
   "description": "One day workshop for PP Sunday. Easy ~ Intermediate",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js localhost 8080",
     "test": "jest --watchAll --verbose"
   },
-  "dependencies": {
+  "devDependencies": {
     "axios": "0.19.0",
     "cheerio": "1.0.0-rc.3",
-    "jest": "24.9.0"
-  },
-  "devDependencies": {
+    "jest": "24.9.0",
     "nodemon": "1.18.4"
   }
 }

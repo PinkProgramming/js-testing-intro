@@ -21,6 +21,8 @@ C. Why do webpages not always work?
 
 ## Exercises
 
+**Preparations**: 1) Install devDependencies `axios` and `cheerios` 2) Open up an extra terminal and run `npm start` (this way you can also test on a locally hosted website)
+
 ### Test 1. Verify document in response
 
 ### Test 2. Test each item in the links-array, if it fails you need to fix the src code!
