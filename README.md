@@ -8,7 +8,7 @@ If you already started to learn JS, you know JS (JavaScript) is code that run in
 
 To run tests in JS you need a **test runner**. This is a small program that automatically detects any tests you created and runs them. The results are presented to you as a developer only, either in a terminal, or as a simple webpage.
 
-When running tests in a terminal, you need a Javascript engine suitable for it. In most cases this is NodeJS, which you need to install just like you install Java, Python or any programming language you want to code in.
+When running tests in a terminal, you need a Javascript engine suitable for it. In most cases this is NodeJS, which you can install just like you install Java, Python or any programming language you want to code in. You may also run it in the cloud, for example using Codesandbox as suggested bellow.
 
 ## Project Setup
 
