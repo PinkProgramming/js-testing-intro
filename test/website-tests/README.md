@@ -21,4 +21,10 @@ C. Why do webpages not always work?
 
 ## Exercises
 
-_todo_
+### Test 1. Verify document in response
+
+### Test 2. Test each item in the links-array, if it fails you need to fix the src code!
+
+### Test 3. Test links, whether each location is reachable
+
+#### Test 1.b Change in setup function, to fetch from remote url

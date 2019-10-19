@@ -11,6 +11,7 @@ module.exports = function extractLinks(res) {
   for (let i = 0; i < linkElements.length; i++) {
     // are there any links in web page?
     links[i] = linkElements[i].attribs.href;
+    links = [...links].filter(link => link && link.substring(0, 4) === "http");
   }
 
   return links;
