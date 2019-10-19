@@ -47,3 +47,8 @@ In order to run tests, an extra npm package is needed. We will use [Jest](https:
 ```bash
   npm install --save-dev jest
 ```
+
+## Exercises
+
+- [Basic Testing](test/basics)
+- [Website Testing](test/website-tests)

@@ -35,3 +35,7 @@ Create some tests to verify:
 - If the list contains common Swedish greetings
 - If the list does not contain English greeting
 - If the list does not contain goodbye greeting
+
+#### Test 2 b. Revisit test2
+
+This time, test a function that accepts a string and returns the last character.
