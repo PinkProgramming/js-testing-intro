@@ -13,18 +13,17 @@ it("Should end with a period.", function() {
   expect(lastCharacter).toEqual(".");
 });
 
-// Test 3. introduce array (for strings)
-const helloWords = ["hej", "hallå", "tjena", "tja", "hejsan"];
+// Test 2 b. Revisit test2
+// this time testing a function
+// that accepts a string and returns last character
+describe("Sentence-finder", function() {
+  const sentenceFinder = require("../../src/utils/sentence.js");
 
-it("Should be a common Swedish greeting", function() {
-  expect(helloWords).toContain("hej");
-  expect(helloWords).toContain("hejsan");
-});
+  test("should return true for strings ending with period", function() {
+    expect(sentenceFinder(example)).toEqual(true);
+  });
 
-it("Should not be an english greeting", function() {
-  expect(helloWords).not.toContain("hi");
-});
-
-it("Should not be a goodbye greeting", function() {
-  expect(helloWords).not.toContain("hejdå");
+  test("should return false for strings not ending with period", function() {
+    expect(sentenceFinder("Hi")).toEqual(false);
+  });
 });
